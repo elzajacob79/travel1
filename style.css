@@ -1,0 +1,425 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Uchen',serif;
+}
+body{
+    overflow-x: hidden;
+}
+/* home */
+html{
+    scroll-behavior: smooth;
+}
+.home{
+    width:100%;
+    height:100vh;
+    background-image: url(./images/l.avif);
+    background-size: cover;
+}
+.home span{
+        width: 800px;
+        color: black;
+        font-size: 25px;
+}
+.home h1{
+        font-size: 55px;
+        position: relative;
+        bottom: 50px;
+        padding-top: 65px;
+        padding-left: 75px;
+        color: #fac031;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 805px;
+    padding-top: 25px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 17px;
+    transition: 0.1s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+nav ul li a:hover{
+    color: brown;
+}
+.home h2{
+    padding-left: 805px;
+    padding-top: 0px;
+    font-size: 65px;
+}
+.home h2 span{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.btn{
+    position: relative;
+    left: 572px;
+    bottom: 30px;
+    width: 150px;
+    cursor: pointer;
+    padding: 12px 20px;
+    background-color: green;
+    color: white;
+}
+
+/* packages */
+.package h1{
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    color: black;
+}
+.menu_box{
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:15px;
+}
+.package .menu_box .menu_card{
+    width: 325px;
+    height: 650px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.package .menu_box .menu_card .menu_image {
+    width: 300px;
+    height: 245px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.package .menu_box .menu_card .menu_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+}
+.package .menu_box .menu_card .menu_image:hover img{
+    transform: scale(1.1);
+}
+.package .menu_box .menu_card .small_card{
+    width: 45px;
+    height: 45px;
+    float: right;
+    position: relative;
+    top: -240px;
+    right: -8px;
+    opacity: 1;
+    border-radius: 7px;
+}
+.package .menu_box .menu_card:hover .small_card{
+    position: relative;
+    top: -240px;
+    right: 20px;
+    opacity: 1;
+}
+.package .menu_box .menu_card .menu_info h2{
+    width: 60%;
+    text-align: center;
+    margin: 10px auto 10px auto;
+    font-size: 25px;
+    color: black;
+}
+.package .menu_box .menu_card .menu_info p{
+    text-align: center;
+    margin-top: 8px;
+    line-height: 21px;
+    color: black;
+
+}
+.package .menu_box .menu_card .menu_info h3{
+    text-align: center;
+    margin-top: 10px;
+    color: red;
+}
+.package .menu_box .menu_card .menu_info .menu_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background: blue;
+    padding: 8px 10px;
+    margin: 0 80px;
+    transition: 0.3s;
+}
+.btnpckg{
+    position: relative;
+    left: 670px;
+    bottom: 30px;
+    top: 30px;
+    width: 150px;
+    cursor: pointer;
+    padding: 3px 50px;
+    background-color: blue;
+    color: white;
+}
+
+/* package2 */
+.package3 {
+    background-image: url(./images/race.jpg);
+    background-size: cover;
+    width:100%;
+    height:100vh;
+}
+.package2 h1{
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    color: black;
+}
+.package3 h2{
+    text-align: center;
+    justify-content: center;
+    padding-top: 205px;
+    color: white;
+}
+.package3 p{
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding-top: 15px;
+}
+.btnpk2{
+    position: relative;
+    left: 670px;
+    bottom: 30px;
+    top: 100px;
+    width: 150px;
+    cursor: pointer;
+    padding: 3px 0px;
+    background-color: skyblue;
+    color: black;
+    font-size: 20px;
+}
+.video{
+    padding-top: 25px;
+}
+.photo{
+    padding-top: 25px;
+}
+.photo img{
+   width: 300%;
+   height:70vh;
+}
+.section2 h1{
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    color: black;
+}
+.menus{
+        width: 95%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap:15px;       
+}
+.menus .menu_card{
+    width: 325px;
+    height: 250px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 25px;
+}
+.menus .menu_box .menu_card .menu_image {
+    width: 300px;
+    height: 245px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.menus .menu_box .menu_card .menu_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+}
+.sect3 h1{
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    margin-left: 30px;
+    color: black;
+}
+.sect3 h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: red;
+}
+.menus1{
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:15px;       
+}
+.menus1 .menu_card{
+width: 325px;
+height: 400px;
+padding-top: 10px;
+margin-bottom: 20px;
+box-shadow: 0 0 10px rgba(0,0,0,0.2);
+border-radius: 25px;
+}
+.menus1 .menu_box .menu_card .menu_image {
+    width: 300px;
+    height: 245px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.menus1 .menu_box .menu_card .menu_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+}
+.menus1 .menu_box .menu_card .menu_info h2{
+    width: 60%;
+    text-align: center;
+    margin: 10px auto 10px auto;
+    font-size: 25px;
+    color: black;
+}
+.menus1 .menu_box .menu_card .menu_info p{
+    text-align: center;
+    margin-top: 8px;
+    line-height: 21px;
+    color: white;
+
+}
+.menus1 .menu_box .menu_card .menu_info a{
+    text-align: center;
+    justify-content: center;
+    margin-top: 8px;
+    margin-left: 75px;
+    line-height: 21px;
+    color: blue;
+}
+.customer h2{
+        font-size: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+        margin-top: 100px;
+        margin-left: 30px;
+        color: black;
+}
+.custo{
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:15px;       
+}
+.custo .menu_card{
+width: 425px;
+height: 500px;
+padding-top: 10px;
+margin-bottom: 20px;
+box-shadow: 0 0 10px rgba(0,0,0,0.2);
+border-radius: 25px;
+}
+.custo .menu_box .menu_card .menu_image {
+    width: 400px;
+    height: 245px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.custo .menu_box .menu_card .menu_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+}
+.custo .menu_box .menu_card .menu_info h2{
+    width: 60%;
+    text-align: center;
+    margin: 10px auto 10px auto;
+    font-size: 25px;
+    color: black;
+}
+.custo .menu_box .menu_card .menu_info p{
+    text-align: center;
+    margin-top: 8px;
+    line-height: 21px;
+    color: black;
+}
+.custo .menu_box .menu_card .menu_info i{
+    text-align: center;
+    margin-top: 8px;
+    line-height: 21px;
+    color: green;
+    margin-left: 45px;
+}
+/* footer */
+footer{
+    background-color: rgb(177, 177, 196);
+}
+footer .footer_main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+footer .footer_main .footer_tag{
+    text-align: center;  
+}
+footer .footer_main .footer_tag h2{
+    color: #000;
+    margin-bottom: 25px;
+    font-size: 30px;
+    margin-top: 50px;
+}
+footer .footer_main .footer_tag h4{
+    margin-left: 5px 0;
+}
+footer .footer_main .footer_tag i{
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 2rem;
+}
+footer .footer_main .footer_tag i:hover{
+    color: #fac031;
+}
+footer .footer_main .footer_tag img{
+    margin-top: 15px;
+    width: 50%;
+}
+.ft2 h3{
+    text-align: center;
+    justify-content: center;
+}
